@@ -68,4 +68,3 @@ Predict the labeling of legendary Pokemons by using various features and statist
   * pokemon.twb
     * Stacked column chart illustrates an imbalanced distribution of data within columns
 * Pokemon Presentation.pdf
-  * Feature engineering output stored in a CSV file.
