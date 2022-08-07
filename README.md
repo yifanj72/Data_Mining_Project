@@ -1,12 +1,13 @@
 # Data_Mining_Project
-## Description
+## Pokemon Legendary Classification
+### Description
 Predict the labeling of legendary Pokemons by using various features and statistics of the current list of legendary & non-legendary Pokemons.
 
-## Data
+### Data
 * The data was downloaded from [Kaggle](https://www.kaggle.com/datasets/rounakbanik/pokemon).     
 * The dataset contains information on all 802 Pokemon from all Seven Generations of Pokemon. This dataset contains information such as Base Stats, Performance against Other Types, Height, Weight, Classification, Egg Steps, Experience Points, Skills, etc. The file size is 161 KB before any clean-up, and there're 41 attributes.
 
-## Methodology and Tools
+### Methodology and Tools
 * Dimensional Reduction
   * SMOTE
   * PCA
@@ -27,7 +28,7 @@ Predict the labeling of legendary Pokemons by using various features and statist
   * Cloud Platform: Google Collaboratory
   * Data Storage: Google Drive
   
-## Findings and Conclusions
+### Findings and Conclusions
 * Strategy Revisited
     * By determining the best model, we can better predict if a Pokemon is legendary or not, and thus help players and game creators identify the value behind each Pokemon they choose or create.
 * Lessons Learned
@@ -40,7 +41,7 @@ Predict the labeling of legendary Pokemons by using various features and statist
     * The implementation of Gridsearch for hyper-parameter tuning for all models, to improve overall improvement in model outputs
     * Obtaining tweets and additional social media insights about each Pokemon, and create a Pokemon popularity prediction for the company to better launch apparels for their fans
 
-## Files
+### Files
 * Data
   * Pokemon.csv
     * Raw data extracted from Kaggle
